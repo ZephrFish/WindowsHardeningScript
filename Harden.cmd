@@ -485,6 +485,15 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v Loca
 :: Commented out as most consumers don't use LDAP auth
 :: reg add "HKLM\SYSTEM\CurrentControlSet\Services\LDAP" /v LDAPClientIntegrity /t REG_DWORD /d 1 /f
 ::
+:: Remove the Reg Keys for PSEXEC, sometimes it is legit
+:: REG add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 0 /f
+:: REG add "HKLM\SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile\Services\FileAndPrint" /v Enabled /t REG_DWORD /d 0 /f
+:: REG delete "HKLM\SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile\Services\FileAndPrint" /v RemoteAddresses /t REG_SZ /d "*" /f
+:: REG add "HKLM\SOFTWARE\Policies\Microsoft\WindowsFirewall\StandardProfile\Services\FileAndPrint" /v Enabled /t REG_DWORD /d 0 /f
+:: REG delete "HKLM\SOFTWARE\Policies\Microsoft\WindowsFirewall\StandardProfile\Services\FileAndPrint" /v RemoteAddresses /t REG_SZ /d "*" /f
+::
+:: 
+:: 
 ::#######################################################################
 :: References
 ::#######################################################################
