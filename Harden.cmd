@@ -7,6 +7,7 @@
 :: Note that if you legitimately use these extensions, like .bat, you will now need to execute them manually from cmd or powershel
 :: Alternatively, you can right-click on them and hit 'Run as Administrator' but ensure it's a script you want to run :) 
 :: https://support.microsoft.com/en-us/help/883260/information-about-the-attachment-manager-in-microsoft-windows
+::
 :: ---------------------
 ftype htafile="%SystemRoot%\system32\NOTEPAD.EXE" "%1"
 ftype wshfile="%SystemRoot%\system32\NOTEPAD.EXE" "%1"
