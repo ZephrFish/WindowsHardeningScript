@@ -14,17 +14,17 @@ This script enhances the security of Windows operating systems by making various
 ## Key Features
 - Admin Check: Ensures the script is executed with administrative privileges for effective changes.
 - Initial Warning and Consent: This alerts users about the significant system changes the script will make and seeks their consent to proceed.
-File Association Changes: This feature modifies file associations for potentially dangerous file types in Notepad to obscure malicious content. It offers optional changes for .bat and .ps1 files.
+- File Association Changes: This feature modifies file associations for potentially dangerous file types in Notepad to obscure malicious content. It offers optional changes for .bat and .ps1 files.
 - Windows Defender Configuration: Activates and configures Windows Defender settings to enhance malware protection.
-Internet Browser Settings: Adjusts Microsoft Edge and Google Chrome settings to improve web browsing security.
-Microsoft Office Security Settings: This feature applies security settings across different versions of Microsoft Office to mitigate risks from malspam attacks and other vulnerabilities.
+- Internet Browser Settings: Adjusts Microsoft Edge and Google Chrome settings to improve web browsing security.
+- Microsoft Office Security Settings: This feature applies security settings across different versions of Microsoft Office to mitigate risks from malspam attacks and other vulnerabilities.
 - General Windows Security Enhancements: DNS client and SMB1 configuration, TCP/IP configuration, system and security policies adjustments, Wi-Fi and NetBIOS configuration, disabling PowerShell 2.0, cryptography, and Kerberos configuration.
 - Windows Remote Access, Removable Media, and Sharing/SMB Settings: Harden remote access settings, disable unnecessary features and protocols, and enforce security policies for file sharing.
 - Biometrics and App Privacy: Adjusts settings to enhance privacy and security regarding biometrics and application permissions.
 - Firewall Modifications: Enables Windows Firewall for all profiles, configures logging, and blocks specific binaries from making outbound connections.
-Privacy Settings and System Cleanup: This program implements a range of privacy settings adjustments and removes pre-installed applications deemed unnecessary.
+- Privacy Settings and System Cleanup: This program implements a range of privacy settings adjustments and removes pre-installed applications deemed unnecessary.
 - Advanced Logging and Audit Policies: Enhances system logging and audit policies for better monitoring and detection capabilities.
-Optional Security Lockdown Options: This option offers a series of optional yet significant security enhancements, including NTLMv2 enforcement, SMB server signing, enabling Windows Defender features, and more.
+- Optional Security Lockdown Options: This option offers a series of optional yet significant security enhancements, including NTLMv2 enforcement, SMB server signing, enabling Windows Defender features, and more.
 
 ## What this Repo Includes
 
