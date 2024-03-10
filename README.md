@@ -7,9 +7,9 @@ This script enhances the security of Windows operating systems by making various
 
 - Intended Audience: The script is crafted explicitly for security professionals and system administrators who understand the intricacies of Windows operating systems and their security frameworks.
 
-Testing Environment: Thorough testing in a non-production environment is strongly recommended to ensure the script's effects align with your unique configurations and do not adversely impact system performance.
+- Testing Environment: Thorough testing in a non-production environment is strongly recommended to ensure the script's effects align with your unique configurations and do not adversely impact system performance.
 
-User Discretion: Please exercise caution. The script includes warnings at critical junctures to confirm your consent for the changes. I would like to let you know that your decision to proceed should be informed and deliberate.
+- User Discretion: Please exercise caution. The script includes warnings at critical junctures to confirm your consent for the changes. I would like to let you know that your decision to proceed should be informed and deliberate.
 
 ## Key Features
 - Admin Check: Ensures the script is executed with administrative privileges for effective changes.
