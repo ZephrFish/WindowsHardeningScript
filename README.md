@@ -1,6 +1,6 @@
 # Windows 10/11 Hardening Script 
 ## Overview
-This script provides a comprehensive suite of system modifications aimed at strengthening the security posture of Windows operating systems. It encompasses a variety of adjustments including settings tweaks, policy revisions, and the configuration of features designed to mitigate a broad spectrum of attack vectors and diminish the system's overall vulnerability.
+This script enhances the security of Windows operating systems by making various system modifications. It includes adjustments to settings, policies, and features to reduce vulnerabilities and protect against a wide range of cyber threats.
 
 ## Important Notes
 - Pre-execution Review: Users are urged to meticulously review each setting and modification prior to execution. This ensures alignment with operational requirements and confirms that no essential functionalities are compromised.
@@ -25,8 +25,6 @@ Biometrics and App Privacy: Adjusts settings to enhance privacy and security reg
 - Privacy Settings and System Cleanup: Implements a range of privacy settings adjustments and removes pre-installed applications deemed unnecessary.
 - Advanced Logging and Audit Policies: Enhances system logging and audit policies for better monitoring and detection capabilities.
 - Optional Security Lockdown Options: Offers a series of optional yet significant security enhancements, including NTLMv2 enforcement, SMB server signing, enabling Windows Defender features, and more.
-
-Each step is meticulously designed to tighten the security without overly compromising the usability of the system. The script includes user consent prompts before applying potentially impactful changes, ensuring that users are aware of and agree to the modifications made to their systems. This script serves as a robust foundation for securing Windows environments, recommended for security-conscious administrators and professionals.
 
 ## What this Repo Includes
 
