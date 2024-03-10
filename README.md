@@ -33,5 +33,12 @@ This script enhances the security of Windows operating systems by making various
 
 This has been tested on Windows 10 and Windows 11 Dev VM. Your mileage may vary, but gives a good baseline to harden a build.
 
+
+## Future / Todo
+- Build out reporting function for before and after
+- add logging of changed files and settings
+- add granular controls to only do certain thjngs
+- add ability to back up reg keys before and after changes 
+
 ## References
 - Originally built off the back of Paving The Way to DA series; https://blog.zsec.uk/paving-2-da-wholeset/
